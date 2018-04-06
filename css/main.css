@@ -2,6 +2,14 @@ html {
   font-family: Merriweather, serif;
 }
 
+.nav a:focus {
+  outline: 3px solid #000;
+}
+
+.read-more {
+  color: #000;
+}
+
 .color-brand {
   color: #568c36;
 }
@@ -12,7 +20,6 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
